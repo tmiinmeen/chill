@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Chill Movie</title>
 </head>
 <body>
-
-<h1>Masuk</h1>
-<p>Selamat Datang</p>
-    <form action="">
-<div class="container">
-    <label for="uname"><b>Username</b></label><br>
-    <input type="text" placeholder="Enter Username" name="uname" required><br>
-    <label for="psw"><b>Password</b></label><br>
-    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
-    <tr>
-        <td>
-            <p>Belum Punya akun? <a href="#"> Daftar</a></p>
-        </td>
-        <td>
+<div class="form-wrapper">
+    <img class="icon" src="/assets/Logo.png" alt="">
+    <h2>Sign In</h2>
+    <p>Selamat Datang Kembali</p>
+    <form action="#">
+        <label>Username</label>
+        <div class="form-control">
+            <input type="text" placeholder="Masukkan Username" required>
+        </div>
+        <label>Kata Sandi</label>
+        <div class="form-control">
+            <input type="password" placeholder="Masukkan Kata Sandi" required>
+        </div>
+        <div class="form-help"> 
+            <div class="remember-me">
+                <label for="remember-me">Belum punya akun<a href=""> Daftar?</a></label>
+            </div>
             <a href="#">Lupa kata sandi?</a>
-        </td>
-    </tr>
-    <label>
-        <button type="submit">Login</button>
-    </label> 
-</div>
+        </div>
+        <div>
+            <button type="submit" id="login">Sign In</button>
+            <p style="text-align: center;">Atau</p>
+            <button type="submit"><img class="ikon" src="/assets/pngegg.png" alt=""> Masuk dengan Google</button>
+        </div>
     </form>
+</div>
 </body>
 </html>
