@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Chill Movie</title>
 </head>
-<body style="background-image: url(/assets/bg.jpeg); margin-bottom: auto;">
+<body style="background-image: url(/assets/bgreg.jpeg);">
 <div class="form-wrapper">
     <center>
-        <img src="/assets/Logo.png" style="margin:10px 10px 20px 10px ;">
+        <img src="/assets/Logo.png" style="margin:10px 10px 20px 10px ;" alt="">
     </center>
-    <h2>Masuk</h2>
+    <h2>Daftar</h2>
     <div>        
-        <h5>Selamat Datang Kembali!</h5>
+        <h5>Selamat Datang!</h5>
     </div>
     <form action="#">
         <label>Username</label>
@@ -22,14 +23,16 @@
         </div>
         <label>Kata Sandi</label>
         <div class="form-control">
-            <input type="password" placeholder="Masukkan Kata Sandi" spellcheck="false" required>
-            <i class="uil uil-"></i>
+            <input type="password" placeholder="Masukkan Kata Sandi"  required>
+        </div>
+        <label>Konfirmasi Kata Sandi</label>
+        <div class="form-control">
+            <input type="password" placeholder="Masukkan Kata Sandi"  required>
         </div>
         <div class="form-help"> 
             <div class="remember-me">
-                <label for="remember-me">Belum punya akun?<a href=""> Daftar</a></label>
+                <label for="remember-me">Sudah punya akun?<a href=""> Masuk</a></label>
             </div>
-            <a href="#">Lupa kata sandi?</a>
         </div>
         <div>
             <button type="submit" id="login">Sign In</button>
