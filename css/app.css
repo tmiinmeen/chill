@@ -5,6 +5,7 @@
 
 body{
     font-family: "Lato", sans-serif;
+    color: aliceblue;
 }
 .navbar{
     width: 100%;
@@ -40,7 +41,12 @@ body{
     margin-right: 30px;
 }
 .profile-container{
-    flex: 2;
+    flex: 1;
+    display: flex;
+    align-items: right;
+}
+.profile-font{
+    margin: 0 10px;
 }
 .profile-picture{
     width: 30px;
@@ -51,4 +57,23 @@ body{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.container{
+    background-color: rgb(156, 152, 152);
+    color: rgb(0, 0, 0);
+}
+
+.feature-content{
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0) );
+    background-image: url(/assets/Rectangle-9.png);
+}
+.feature-title{
+    width: auto;
+    padding: 200px 80px;
+    font-size: 40px;
+}
+.feature-desc{
+    width: 500px;
+    margin-top: 0;
 }
